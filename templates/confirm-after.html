@@ -1,0 +1,23 @@
+{% load static %}
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Confirm</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title">Human In a Poke</h1>
+    <p class="page_discription">確認画面</p>
+    <p class="confirm_message">少々お待ちください</p>
+    <p class="confirm_name">{{ field.name }}</p>
+    <p class="confirm_money">{{ field.money }}</p>
+    <p class="confirm_bet">{{ field.bet }}</p>
+    <p class="confirm_bet_to">{{ field.bet_to }}</p>
+    <div class="confirm_button">
+      <button onclick="location.href='home'" class="confirm_button_c">
+        ホームページへ
+      </button>
+    </div>
+  </body>
+</html>

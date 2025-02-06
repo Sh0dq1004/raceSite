@@ -1,0 +1,20 @@
+{% load static %} {% load widget_tweaks %}
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>設定</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title">Human In a Poke</h1>
+    <p class="page_discription">ユーザー設定画面</p>
+    <h1 class="US_message">{{ message }}</h1>
+    <form action="{% url 'user_setting_template' %}" method="post">
+      {% csrf_token %}
+      <p class="US_name_label">~名前~</p>
+      <div class="US_form_p">{{ form.name|add_class:"US_form" }}</div>
+      <input type="submit" value="送信" class="button" />
+    </form>
+  </body>
+</html>

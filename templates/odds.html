@@ -1,0 +1,22 @@
+{% load static %}
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Odds</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title">Human In a Poke</h1>
+    <p class="page_discription">ホーム画面</p>
+    <p class="odds_opt">しょうた : {{ field.odds_opt1 }}</p>
+    <p class="odds_opt">たいが : {{ field.odds_opt2 }}</p>
+    <p class="odds_opt">たくみ : {{ field.odds_opt3 }}</p>
+    <p class="odds_opt">そら : {{ field.odds_opt4 }}</p>
+    <div class="index_button">
+      <button onclick="location.href='betting'" class="index_button_c">
+        ベッティングへ
+      </button>
+    </div>
+  </body>
+</html>

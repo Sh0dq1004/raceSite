@@ -1,0 +1,226 @@
+body {
+  background-color: rgb(0, 65, 0);
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100%;
+  position: relative;
+}
+
+.title {
+  color: brown;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 300%;
+}
+
+.page_discription {
+  color: brown;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  font-size: 175%;
+}
+
+.US_message {
+  color: gray;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 400%;
+}
+
+.US_name_label {
+  color: gray;
+  text-align: center;
+  font-size: 200%;
+}
+
+.US_form_p {
+  text-align: center;
+}
+.US_form {
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+  width: 50%;
+  height: 5%;
+  font-size: 200%;
+  background: burlywood;
+  border-radius: 2.5%/25%;
+}
+
+.button {
+  font-family: "Kaisei Tokumin", serif;
+  margin-top: 5%;
+  margin-left: 45%;
+  font-size: 200%;
+  width: 10%;
+  height: 5%;
+  border-radius: 10%/25%;
+  background-color: goldenrod;
+  color: black;
+}
+
+.index_label {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 300%;
+  text-align: center;
+  color: gray;
+}
+
+.index_name {
+  margin-top: 0%;
+  margin-bottom: 5%;
+  font-size: 300%;
+  text-align: center;
+  color: gray;
+}
+
+.index_money {
+  margin-top: 0%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 300%;
+  color: gray;
+}
+
+.index_button_c {
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+  width: 50%;
+  height: 5%;
+  font-size: 300%;
+  border-radius: 10%/40%;
+  background-color: goldenrod;
+  color: black;
+}
+.index_button {
+  text-align: center;
+}
+
+.betting_message {
+  color: gray;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 400%;
+  text-align: center;
+}
+
+.betting_select_label {
+  margin-top: 5%;
+  text-align: center;
+  color: gray;
+  font-size: 200%;
+}
+
+.betting_select {
+  text-align: center;
+  font-size: 200%;
+  color: gray;
+}
+
+.betting_money_label {
+  text-align: center;
+  margin-top: 5%;
+  color: gray;
+  font-size: 200%;
+}
+
+.betting_money_p {
+  text-align: center;
+}
+
+.betting_money {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-bottom: 5%;
+  width: 25%;
+  height: 5%;
+  font-size: 200%;
+  background: burlywood;
+  border-radius: 2.5%/25%;
+}
+
+.betting_submit_btn {
+  margin-top: 5%;
+  margin-left: 45%;
+  width: 10%;
+  height: 5%;
+  border-radius: 10%/25%;
+  background-color: goldenrod;
+  color: black;
+}
+
+.betting_button {
+  text-align: center;
+}
+
+.betting_button_c {
+  font-family: "Kaisei Tokumin", serif;
+  font-size: 200%;
+  text-align: center;
+  width: 40%;
+  height: 5%;
+  border-radius: 10%/25%;
+  background-color: goldenrod;
+  color: black;
+}
+
+.odds_opt {
+  text-align: center;
+  color: gray;
+  margin-top: 5%;
+  font-size: 200%;
+}
+
+.confirm_message {
+  color: gray;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 400%;
+  text-align: center;
+}
+
+.confirm_name {
+  color: gray;
+  margin-top: 10%;
+  font-size: 300%;
+  text-align: center;
+}
+
+.confirm_money {
+  color: gray;
+  margin-top: 5%;
+  font-size: 300%;
+  text-align: center;
+}
+
+.confirm_bet {
+  color: gray;
+  margin-top: 5%;
+  font-size: 300%;
+  text-align: center;
+}
+
+.confirm_bet_to {
+  color: gray;
+  margin-top: 5%;
+  font-size: 300%;
+  text-align: center;
+}
+
+.confirm_button {
+  margin-top: 10%;
+  text-align: center;
+}
+.confirm_button_c {
+  font-family: "Kaisei Tokumin", serif;
+  text-align: center;
+  font-size: 300%;
+  width: 40%;
+  height: 5%;
+  border-radius: 10%/25%;
+  background-color: goldenrod;
+  color: black;
+}

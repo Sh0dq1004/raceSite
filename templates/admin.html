@@ -1,0 +1,20 @@
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>人間ギャンブル</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>現在マッチ{{ match_num }}</h1>
+    <form action="{% url 'admin_template' %}" method="post">
+      {% csrf_token %}
+      <button name="clear" type="clear">データベースをクリア</button>
+      <button name="match1" type="match1">match1</button>
+      <button name="match2" type="match2">match2</button>
+      <button name="match3" type="match3">match3</button>
+      {{form}}
+      <button name="answer" type="answer">お金の返金を行う</button>
+      <button name="result" type="answer">最終結果をprintする</button>
+    </form>
+  </body>
+</html>

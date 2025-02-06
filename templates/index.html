@@ -1,0 +1,22 @@
+{% load static %}
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="title">Human In a Poke</h1>
+    <p class="page_discription">ホーム画面</p>
+    <p class="index_label">ユーザー名</p>
+    <p class="index_name">{{ field.name }}</p>
+    <p class="index_label">残金</p>
+    <p class="index_money">{{ field.money }}</p>
+    <div class="index_button">
+      <button onclick="location.href='betting'" class="index_button_c">
+        ベッティングへ
+      </button>
+    </div>
+  </body>
+</html>
